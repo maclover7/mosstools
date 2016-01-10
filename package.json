@@ -1,0 +1,17 @@
+{
+  "title": "mosstools",
+  "name": "mosstools",
+  "version": "0.0.1",
+  "description": "An OSS maintainer's best friend",
+  "main": "lib/main.js",
+  "author": "",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "oss",
+    "moss"
+  ]
+}
