@@ -112,6 +112,10 @@ if commentForm
     btn = button "<img src='#{heartImage}' width='14' height='14'>", ":heart: :green_heart: :blue_heart: :yellow_heart: :purple_heart:", false
     openButtonGroup.appendChild btn
 
+    # Bug script
+    btn = button "BS", "Can you create an executable test script using one of the templates [here](https://github.com/rails/rails/tree/master/guides/bug_report_templates)?", false
+    openButtonGroup.appendChild btn
+
     wrapper.appendChild closeButtonGroup
     wrapper.appendChild closeButtonGroupTitle if @close
 
